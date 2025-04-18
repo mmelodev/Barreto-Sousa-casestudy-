@@ -1,3 +1,56 @@
 comando para ativação do tailwind:
 npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
 
+----
+
+🎨 Estilo Geral do Site
+Visual minimalista, elegante e sóbrio
+
+Muito espaço em branco para respiro visual
+
+Layout limpo, com boas margens e seções bem separadas
+
+Animações suaves (scroll reveal, hover sutil)
+
+Ícones discretos e refinados (ex: ícones da Lucide, Heroicons ou Phosphor)
+
+🌈 Paleta de Cores Sugerida
+Azul Petróleo (#1E3A5F) → cor principal (seriedade e confiança)
+
+Branco Puro (#FFFFFF) → fundo para clareza e contraste
+
+Cinza Areia (#F5F5F5) → áreas secundárias
+
+Dourado Suave (#C1A36F) → toques de sofisticação (borda, ícone ou destaque)
+
+Cinza Grafite (#2B2B2B) → para textos ou rodapé
+
+Alternativa: usar variações monocromáticas com tons quentes e neutros escuros, como vinho ou marrom escuro, dependendo do branding desejado.
+
+🔤 Tipografia
+Títulos (ex: H1, H2, Menu):
+Playfair Display, Libre Baskerville, ou Merriweather
+→ serifadas, passam elegância e tradição.
+
+Textos e Parágrafos:
+Inter, Lato, ou Roboto
+→ sem serifa, moderna, de ótima leitura digital.
+
+Exemplo de combinação:
+
+Títulos: Playfair Display (serifada, clássica)
+
+Textos: Inter (neutra, limpa)
+
+🧱 Sugestão de Estrutura Visual (Componentes)
+Hero com imagem ou cor sólida + headline impactante + CTA
+
+Cards das áreas de atuação com ícones e descrições
+
+Sessão "Sobre" com foto ilustrativa e texto lateral
+
+Depoimentos ou avaliações (se quiser dar esse toque de prova social)
+
+Sessão de contato com mapa embutido + formulário + ícones de contato
+
+Rodapé com logo, links rápidos e dados legais

@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background: linear-gradient(-45deg, #1E3A5F, #ffffff);
+    background-size: 200% 200%;
+    animation: gradient 8s ease infinite;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+h1{
+    font-family: "Playfair Display", serif;
+}
+  
+h2{
+    font-family: "Playfair Display", serif;
+}
+
+h3{
+    font-family: "Inter", sans-serif;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+}
+
+button{
+    font-family: "Inter", sans-serif;
+}
+
+span{
+    font-family: "Inter", sans-serif;
+}
