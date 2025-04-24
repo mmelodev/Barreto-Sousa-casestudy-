@@ -1,6 +1,9 @@
 comando para ativação do tailwind:
 npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
 
+iniciar o tailwind
+npm install -D tailwindcss@3
+npx tailwindcss init
 ----
 
 🎨 Estilo Geral do Site
