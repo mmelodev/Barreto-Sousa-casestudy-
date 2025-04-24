@@ -19,3 +19,21 @@ toggles.forEach((btn) => {
     btn.textContent = expandido ? "Ver mais ↓" : "Ver menos ↑";
   });
 });
+
+//------------------------
+
+document.addEventListener("DOMContentLoaded", function () {
+  var swiper = new Swiper(".vertical-slide-carousel", {
+    loop: true,
+    direction: "vertical",
+    mousewheel: {
+      releaseOnEdges: true,
+    },
+    spaceBetween: 30,
+    grabCursor: true,
+    pagination: {
+      el: ".vertical-slide-carousel .swiper-pagination",
+      clickable: true,
+    },
+  });
+});
