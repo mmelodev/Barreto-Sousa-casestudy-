@@ -8,15 +8,19 @@ togglebtn.addEventListener("click", () => {
 
 //-------------------
 
-const toggles = document.querySelectorAll(".toggle-btn");
+document.addEventListener("DOMContentLoaded", () => {
+  const toggles = document.querySelectorAll(".toggle-btn");
 
-toggles.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    const bloco = btn.closest(".bg-[#f5f5f5]");
-    const texto = bloco.querySelector("p");
+  toggles.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const bloco = btn.closest("div");
+      const texto = bloco.querySelector(".texto-expandido");
 
-    const expandido = texto.classList.toggle("line-clamp-3");
-    btn.textContent = expandido ? "Ver mais ↓" : "Ver menos ↑";
+      texto.classList.toggle("line-clamp-3");
+
+      const estaExpandido = !texto.classList.contains("line-clamp-3");
+      btn.textContent = estaExpandido ? "Ver menos ↑" : "Ver mais ↓";
+    });
   });
 });
 
