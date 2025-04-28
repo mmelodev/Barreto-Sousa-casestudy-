@@ -95,3 +95,47 @@ span {
   top: 18.43%;
   overflow: visible;
 }
+
+@media screen and (min-width: 770px){
+  section{
+    padding: 0 200px;
+  }
+
+  #local{
+    padding: 40px 0;
+  }
+
+  #quem-somos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #diferencial{
+    padding-top: 100px;
+  }
+  
+  #servicos{
+    padding-top: 100px;
+  }
+
+  #servicos-subtexto{
+    padding: 50px 300px;
+  }
+
+  #estrutura{
+    
+  }
+
+  #btn-subtexto-servicos{
+    width: 500px;
+  }
+
+  #blocos-servicos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #img-texto-quemsomos{
+    padding-top: 20px;
+  }
+}
